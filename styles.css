@@ -1,0 +1,24 @@
+html, body {
+
+    margin: 0px;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+#window {
+    height: 100%;
+    background-color: #DDA0DD;
+}
+
+.draggable {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: drag;
+ }
+
+
+h1 {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

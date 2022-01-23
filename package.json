@@ -1,0 +1,26 @@
+{
+  "name": "pomodesktop",
+  "version": "1.0.0",
+  "description": "Desktop Pomodoro Timer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathikmurthy/pomodesktop.git"
+  },
+  "author": "Prathik Murthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prathikmurthy/pomodesktop/issues"
+  },
+  "homepage": "https://github.com/prathikmurthy/pomodesktop#readme",
+  "devDependencies": {
+    "electron": "^16.0.7"
+  },
+  "dependencies": {
+    "electron-drag": "^2.0.0"
+  }
+}
