@@ -19,7 +19,7 @@ function createWindow() {
 
     win.addListener('blur', () => {
         if (blurhide) {
-            win.hide();
+            win.hide()
         }
     })
 }
