@@ -6,13 +6,15 @@ html, body {
     overflow: hidden;
 }
 
+
+
 #window {
     height: 100%;
     background-color: #DDA0DD;
 }
 
-.draggable {
-    -webkit-user-select: none;
+.draggable{
+    -webkit-user-select: none; 
     user-select: none;
     -webkit-app-region: drag;
  }
